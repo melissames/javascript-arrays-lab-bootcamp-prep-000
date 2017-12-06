@@ -18,3 +18,8 @@ function destructivelyRemoveFirstKitten(){
   kittens.shift()
   return kittens
 }
+
+function appendKitten(name){
+  var newArr = kittens.slice()
+  newArr.push(name)
+}
