@@ -36,4 +36,3 @@ function removeLastKitten(){
   newArr.pop()
   return newArr
 }
-
