@@ -24,4 +24,3 @@ function appendKitten(name){
   newArr.push(name)
   return newArr
 }
-
