@@ -42,4 +42,3 @@ function removeFirstKitten(){
   newArr.shift()
   return newArr
 }
-
