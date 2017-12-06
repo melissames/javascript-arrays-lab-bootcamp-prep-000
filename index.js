@@ -36,3 +36,10 @@ function removeLastKitten(){
   newArr.pop()
   return newArr
 }
+
+function removeFirstKitten(){
+  var newArr = kittens.slice()
+  newArr.shift()
+  return newArr
+}
+
